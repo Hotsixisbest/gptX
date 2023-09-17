@@ -3,7 +3,7 @@ const setting = {
     gptCookies: [
         {
             name: '__cf_bm',
-            value: 'eTCi2Ii5RyBL9s8RJiqBjr5GNGqcma6otdA7z3NYO2c-1694867935-0-ARQRfhEVNzb9/3Oo5Xtd3EHFcZrW7m1wEfYvqDsnT1RMO+JPEIYIM+OoRBtpPseXfbhdn5eM379MzzqzZjSozOg=',
+            value:'',
             domain: '.chat.openai.com',
             path: '/',
             expires: 1695042828,
@@ -18,7 +18,7 @@ const setting = {
         },
         {
             name: '__stripe_mid',
-            value: '3ebecc80-19d6-4a13-867b-af8f9394b90aed022f',
+            value:'',
             domain: '.chat.openai.com',
             path: '/',
             expires: 1695042828,
@@ -33,7 +33,7 @@ const setting = {
         },
         {
             name: '__stripe_sid',
-            value: '60e8538d-e494-44a9-bcab-0a63623306b2daf542',
+            value:'',
             domain: '.chat.openai.com',
             path: '/',
             expires: 1695042828,
@@ -48,7 +48,7 @@ const setting = {
         },
         {
             name: '_cfuvid',
-            value: 'R2KU5LbYtsBooj62V..ThRQ63LYC4abfZNg2.1VhjJA-1694867952338-0-604800000',
+            value:'',
             domain: '.chat.openai.com',
             path: '/',
             expires: 1695042828,
@@ -63,7 +63,7 @@ const setting = {
         },
         {
             name: 'cf_clearance',
-            value: 'yg4rp1fh8Zbn.HhJ2U.PACFkFE6d0lAEIo9Lmb1g3No-1694867058-0-1-8fb3298d.888883bf.2382283-0.2.1694867058',
+            value:'',
             domain: '.chat.openai.com',
             path: '/',
             expires: 1695042828,
@@ -78,7 +78,7 @@ const setting = {
         },
         {
             name: 'auth0',
-            value: 's%3AbJb9RwJ6URbkoEpyTkXwMFawdciS99RM.U8E04jprZxKrDpOHROjkRO2fnCZU78%2Fmvqq%2BlGl9nbc',
+            value:'',
             domain: '.auth0.openai.com',
             path: '/',
             expires: 1695042828,
@@ -93,7 +93,7 @@ const setting = {
         },
         {
             name: 'auth0_compat',
-            value: 's%3AbJb9RwJ6URbkoEpyTkXwMFawdciS99RM.U8E04jprZxKrDpOHROjkRO2fnCZU78%2Fmvqq%2BlGl9nbc',
+            value:'',
             domain: '.auth0.openai.com',
             path: '/',
             expires: 1695042828,
@@ -108,7 +108,7 @@ const setting = {
         },
         {
             name: 'did',
-            value: 's%3Av0%3A0cc91ce0-548e-11ee-8c5f-9b63abf44045%3A0367e44a790b0632d8b05c2769cab397991a5c9bfec7b6bf974fd18f20c37d49.qY8RkGRo%2FGr7MDjpLWRnntZGeLSJjl803P7xHIy3A8Y',
+            value:'',
             domain: '.auth0.openai.com',
             path: '/',
             expires: 1695042828,
@@ -123,7 +123,7 @@ const setting = {
         },
         {
             name: 'did_compat',
-            value: 's%3Av0%3A0cc91ce0-548e-11ee-8c5f-9b63abf44045%3A0367e44a790b0632d8b05c2769cab397991a5c9bfec7b6bf974fd18f20c37d49.qY8RkGRo%2FGr7MDjpLWRnntZGeLSJjl803P7xHIy3A8Y',
+            value:'',
             domain: '.auth0.openai.com',
             path: '/',
             expires: 1695042828,
@@ -138,7 +138,7 @@ const setting = {
         },
         {
             name: '__Host-next-auth.csrf-token',
-            value: '26d56776bd6f354c03b563d05d0741859c7ed003d5efdc99f6ba2b6f60625abe%7C42592a700374054180377235d32ca272156cd494b640dc3ba08eccaafa529cc7',
+            value:'',
             domain: 'chat.openai.com',
             path: '/',
             expires: 1695042828,
@@ -153,7 +153,7 @@ const setting = {
         },
         {
             name: '__Secure-next-auth.callback-url',
-            value: 'https%3A%2F%2Fchat.openai.com%2F',
+            value:'',
             domain: 'chat.openai.com',
             path: '/',
             expires: 1695042828,
@@ -168,7 +168,7 @@ const setting = {
         },
         {
             name: '__Secure-next-auth.session-token',
-            value: 'eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..WbiPz35gacC9iQDB.sS70UdxmPy6ypm6qLUKZw65cR7FdV_URo91jQhkq_oA-h_nus5BUFCO0rFgwWhlN3WRtUmZTXjqQRSAzNt82pjvqV5HxJTeeRRlzujPQeAfTukCmhidP-Uij0iCUhxWqQCcCtKUsll5XtcFeViwSi2Trf6abqXSiT1OnfhGSrBl4HzVAPPk3_LwJZx0e0xknfc4YoFfan4w4b3pnlnuEtkTgpsLP1Vepo3C9ZbywLG85oas87skbz480AzJVcxUb9KAK2gfKE-FjQhOhQVXxsJ2vC04Hx2FsFagqd5TByiuwEdQ3318j9c4pMdGIp8u5ibK5pbLy6BeILvveLFslYWIUvaGY8nB9Mbzrq8e9_MJtIZ8k9luiDofkdP0g3tes61h5NP8HxEsWeq2xa7l-Z3Rn8r58O_4GSbbN1pHKfAbivDqdd_QbXs-n4zKBz89gI3W_FvGaUS-nf3BjFKXMiimpFOe9dUEx7CilXK9AX9Ki-uzwqXY87YzuPKcLZvYOsZjuJrrtuvhWiJ8jJSZ9djvouAK49VBupyLZU95krgtUFI1TUvoaBsYr2iU1A1h1IYQ8a4l-qMvaYriYBpYENzWr7HkqIpMzG5Op5AE1MmGl5CUgSBm6ffxn0FrVhCe3otT4M04Bwk_CFtqqyZZxdEpW2rcGp2pkvn6H8k6S5GnS5WtRbJZev6gtts1x2Ew0QNYjpUcQm2a9OI7R_OHey4AQjun35fg6f_YMIOg9uY4Fvn6-stwutRsV5ByHYa-abeP0O2O-E8DaPWeURa1THVrtwy1PfnxIXJLow9hMxyzijTD-yp2m_m2EEgACKfOzReTb758Mn_hguViWa3qWgYDUgJs_aqfHayL_jQUzvWtacfUpgx8XR8gAa2O44fK2VZUIT2EA1GqSI2ssCRbQxp60sy_sE36nAJkYvTG4pshKtoDV62am6z-J9Z6g7TCxE1PnQKlrM3s9r_5KFwIUw6SPHerq42SeSkhC3d5nU-Kp9m-XGRFJ6gmYMmNngIccWQVCSZAY2VeW_OIW6ICpcD26EdfHHxfWU7H34TunRzJ9oDU7Jg9F9qq-RK7P4Sf-dxikC3lA5u_54EeFNl-sqYtD9_xrLrO4-LL_4_5XQXRlxImibYm0_p-Iox5lfP5a_2ClypR9U0bNJ_NlBcA0BVe7PJmUbM0nynKHJWHAXjS6WJKH22qQYTE63RIDCCkVLsasd-PfD119aV8u7DvO9nPLyfjbCon89x8KhweORl6V1hZRwRVCk01fC1Z21jofFWxJN-lrh1IKbXPfL6c9t7BKPa1oAESckj4WVOsSVL3hDEEaPFv0fGZDzr2xO9Hr4FSL-FOI2Tkk1qMxLV3nz1lvUxpQ2rRCRv-OeacTGeJe4zQQwA-lF4po5u1fGP2ryY8SwBUz7RDfMDIHUIKOIVzh-y7VmiEKX8JrSMKpaboFOQi-wb2Yq9ZqUm9sGb77HDdq8NpilNJ2ukjdt0cckvFdwZzbBC6rDnC8xpSB0Y1bdwZ8-ynrZbWXk8dVeQpqG936IcHppqJT_dIOYC20DD565NPWnmMoSx0mAl58DFqiU7_25X4lRhTSJo2RwMim8dqSLjihTTKJGeNj9u-H-O8V62UFOW3NAtdBdDWeW4oYHn8EJSngtT5nfT-3KYuSSLJNKyczHTk4VSvpjkjJ7hL_f-YvKkQYILurThRlTOgcEOU6qtOP1lErXXwSFvy60b2NgZncS7b88Kl7dOBW3np39BEhdYCTNYhsg1z4Cr8XMqrr7y6a1Mbyf-x4Lpg9qK3ISRUAJkY5gviOFXjscGe7ibVOfrUa4FEYe8ZKS99xJtQ1Fvjjve7xkek5lTQE241C3dfpcGOwD7KRvFNYNNUzq5uiQNGEteBW6s8Ul7y-7Wwd8cGdbRYLABFd-sl59n0Knh9HtOmEkxc7BWKJVll87oUDceSadZ-OlQgRwpNG24j3Y5Pj4-JfHlCTad8TBYVxj5exLDZjbxtcuwUbVFcl_DFH9BmAIU2bkoat8OIznbp3C_E-RaidADyWqPyf2gxboso6vWzP7EOKQAZ5iThGzQK07Z-WbcuKDpqGWq-ym-OvPcd69ttqeip6jmDQsYMHNxBBh4DWjN6bHOiWUmHSyAzCjfjNj_XISCcW7xkhEuGSf9udQzqRehdkjSPcW-B9Tr2Tl6ZmtIF5w8WB1jJjYsRGPO4EHXeY5yO2aXuiNQdeuDlvmeNToBWlvWOwmShIZVefkg1x1pbAOtTOG0Z1u-gmst26toJXbBAKqNtFXTib5O1_kjEPL5IG5cYSAdWSZcHgOq92q7xXLgouvVZ1yNMbn_3VVxkbR3Hq-YhKG6uKDUWZH1Ucqsh56kY122s5FQ-QYpgSeHXcu-dQbYJOksxPFKX1cr-2Ln-t-n7_Kj2q10gbCvv5HQ_Agr3gRYFbFii04Vszd79gTurU9UOjKukT5gRFDybvZmse64va31RHQ7G2pr0K-sjAGHVNbeL6yxAgLE_3FEEHqQG5C__l93Lzfhbbtx_ObDaNlV4PJyocL08uKBB8CiNJBoUH3KNlv28mKn_AQ-zhuWz0M7yfUptoZN05NL_xutofGmknmJ3ecmj3bvDtf3mi-oed-4qC90tqi9GoeAJ2Gg48OhaWAYGd4hOcKCO6sccfEtLoiJqZbU67hDIUvaO79cr8N0XHxV_WAWCfSzU50xNoB2Sfap69WMg3vYal.ye_Sf3JD9HfKeZ8W6qWrdQ',
+            value:'',
             domain: 'chat.openai.com',
             path: '/',
             expires: 1695042828,
@@ -183,7 +183,7 @@ const setting = {
         },
         {
             name: '_dd_s',
-            value: 'expire=1694868933421&rum=0',
+            value:'',
             domain: 'chat.openai.com',
             path: '/',
             expires: 1695042828,
@@ -198,7 +198,7 @@ const setting = {
         },
         {
             name: '_uasid',
-            value: '"Z0FBQUFBQmxCYUpDVkplbXNpNUtiUVFjR3RrZklDSVdRdzRUdzJ0TlgxTjYyQnhMamxQTy1pdEpYNE9IRnhvLXVDRVVtMXJPWVVDeXFhaVc3RGZQcERJT0JnUDc1Wl9ld2V4QV9IMFNUbU5vVWkwbzBzVFFaa2JYeV9oWUZZcmNmTV91SzRabHhmMEkwUm4zM1NjMkZncEp0dllIVVBaeEd3cUIzQVg3YjZFeTRnbjBQMEZvOFlYdl9xV2VhV09ndFRfU0pja21QWi1BOW53dE1TalpVdExvR0tTbnJOWTNpYTlzQjdQWEZpanc1bzRFYUwxOVpXSWh4WUVaWm56QTJIQmh4VnZ2RU5zeHliWUw3d2lCUnpfaGdzcjdwZ3NJNm9kZkhsVldZaG5pRFU1bnpobVJrdFhReEZ4c0NBc01RazdFcC1oczRhTDNLY2s4WTNYZjhySnhOSkFDbV9OX3dRPT0="',
+            value:'',
             domain: 'chat.openai.com',
             path: '/',
             expires: 1695042828,
@@ -214,7 +214,7 @@ const setting = {
     ],
     XCookie : {
         name: 'auth_token',
-        value: '8f43b6f3f2d18e04eb4f30b91aeca153c7d6c331',
+        value:'',
         domain: '.twitter.com',
         path: '/',
         expires: 1695042828,
@@ -227,7 +227,7 @@ const setting = {
         sourceScheme: 'Secure',
         sourcePort: 443
     },
-    gptPrompt:'트위터에 올릴 어그로 끌리는 신기한 사실 알려 줘.'
+    gptPrompt:'your_prompt'
 }
 
 module.exports = setting;
