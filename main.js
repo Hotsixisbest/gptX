@@ -59,9 +59,13 @@ async function launchChatGpt(browser) {
                 y: y
             }
         });
+        await setTimeout(500);
         await page.mouse.click(textAreaPosition.x + 10, textAreaPosition.y + 10, { button: 'left' });
+        await setTimeout(500);
         await page.keyboard.press('Space');
+        await setTimeout(500);
         await page.keyboard.press('Backspace');
+        await setTimeout(500);
         await page.evaluate(function () {
             let sendBtn = document.querySelector('button[style="background-color: rgb(25, 195, 125);"]');
             sendBtn.click();
@@ -83,8 +87,11 @@ async function launchChatGpt(browser) {
                 y: y
             }
         }, setting);
+        await setTimeout(500);
         await page.mouse.click(textAreaPosition.x + 10, textAreaPosition.y + 10, { button: 'left' });
+        await setTimeout(500);
         await page.keyboard.press('Space');
+        await setTimeout(500);
         await page.evaluate(function () {
             let sendBtn = document.querySelector('button[style="background-color: rgb(25, 195, 125);"]');
             sendBtn.click();
@@ -120,14 +127,18 @@ async function getTweet(gptPage) {
             y: y
         }
     });
+    await setTimeout(500);
     await gptPage.mouse.click(textAreaPosition.x + 10, textAreaPosition.y + 10, { button: 'left' });
+    await setTimeout(500);
     await gptPage.keyboard.press('Space');
-    await setTimeout(function () { }, 1000);
+    await setTimeout(500);
     await gptPage.evaluate(function () {
         let sendBtn = document.querySelector('button[style="background-color: rgb(25, 195, 125);"]');
         sendBtn.click();
     });
+    await setTimeout(500);
     await gptPage.waitForSelector('button.btn.relative.btn-neutral.-z-0.whitespace-nowrap.border-0', { timeout: 0 });
+    await setTimeout(500);
     let tweet = await gptPage.evaluate(function () {
         return Array.from(document.querySelectorAll('.p-4.justify-center.text-base.m-auto')).at(-1).querySelector('p').innerHTML.replace('[🔓JAILBREAK]', '').replace(/"(.*?)"/, '$1');
     });
@@ -139,7 +150,9 @@ async function writeTweet(tweet, xPage) {
         let tweetInitBtn = document.querySelector('div[style="color: rgb(255, 255, 255);"]');
         tweetInitBtn.click();
     });
+    await setTimeout(500);
     await xPage.waitForSelector('div[data-testid="tweetButton"]', { timeout: 0 });
+    await setTimeout(500);
     let textAreaPosition = await xPage.evaluate(function () {
         let textArea = document.querySelector('[aria-label="Tweet text"]');
         let x = textArea.getBoundingClientRect().x;
@@ -149,8 +162,11 @@ async function writeTweet(tweet, xPage) {
             y: y
         }
     });
+    await setTimeout(500);
     await xPage.mouse.click(textAreaPosition.x + 10, textAreaPosition.y + 10, { button: 'left' });
+    await setTimeout(500);
     await xPage.keyboard.type(tweet);
+    await setTimeout(500);
     await xPage.evaluate(function () {
         document.querySelector('div[data-testid="tweetButton"]').click();
     });
